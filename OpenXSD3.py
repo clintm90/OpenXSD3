@@ -25,7 +25,6 @@ class OpenXSD3:
                 (r"/", self.CoreHandler),
             ]
         )
-
         self.application.listen(8080)
         tornado.ioloop.IOLoop.current().start()
 
